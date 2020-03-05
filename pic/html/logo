@@ -1,0 +1,34 @@
+body {
+    margin:0;
+    font-family:"Arial",sans-serif;
+}
+
+header {
+    height: 420px;
+    background:url(imgs/yanga_logo_new.jpg);
+}
+header nav{
+    background:rpga(211,211,211,0.9);
+    height:62px;
+    box-shadow:0 2px 3px rgba(0,0,0,.25);
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float:left;
+    display:flex;
+}
+header nav ul li a {
+    float: left;
+    line-height: 62px;
+    padding:0 18px;
+    font-weight: bold;
+    text-decoration:none;
+    color: black;
+    opacity: .4;
+    transition:opacity .25s;
+}
+header nav ul li a:hover{
+    opacity:1;
+}
